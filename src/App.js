@@ -128,7 +128,7 @@ const App = () => {
         file_mime_type: fileMimeType,
       };
 
-      const response = await fetch('http://localhost:8000/chat', {
+      const response = await fetch('https://franchise-ai-agent-backend.onrender.com/chat', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
